@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-header
+{
+    width: 100%;
+    height:100vh;
+    background: linear-gradient(57deg, #00c6a7, #3d6db4);
+   clip-path: polygon(0% 0%, 100% 0%, 100% 73%, 0% 100%);
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+}
+.logo{
+    width:50%;
+    height: 100px;
+}
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
+}
+.menu{
+    width:50%;
+    height:100px;
+}
+.menu ul{
+    width:100%;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li a{
+
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+section{
+    display: flex;
+}
+.leftside{
+    width:50%;
+    height:auto;
+    overflow: hidden;
+    margin-top : 20px;
+}
+.leftside img{
+    width:100%;
+    height:500px;
+}
+.rightside{
+    width:50%;
+    height:400px;
+    color:white;
+    text-align: center;
+    margin: 80px;
+    padding:40px;
+   
+    
+}
+.rightside h1{
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+   
+  
+}
+.rightside ul{
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+}
+.rightside ul li{
+   
+    list-style: none;   
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.rightside ul li button{
+    font-size: 10px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    border-radius: 4px;
+    padding: 20px 30px;
+    margin: 8px;
+    outline: none;
+}
+.rightside ul li button :hover{
+    background: linear-gradient(57deg, #1e4d92,#00c6a7);
+}
